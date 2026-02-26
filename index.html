@@ -11,9 +11,7 @@
     </header>
     <section>
         <form action="" method="get">
-            <fieldset>
-                <!-- DADOS PESSOAIS-->
-                 
+            <!-- <fieldset>
                 <legend>Dados Pessoais</legend>
                 <label for="userName">Nome</label>
                 <input type="text" name="userName" required>
@@ -33,8 +31,70 @@
                 <label for="userImage">Upload de Foto</label>
                 <input type="file" accept="image/*" name="userImage">
                 <br>
-            </fieldset>
+            </fieldset> -->
 
+            <fieldset>
+                <legend>Perfil</legend>
+
+                <p>Gênero:</p>
+                <input type="radio" name="userGender" value="Feminino">
+                <label for="userGender">Feminino</label>
+                <input type="radio" name="userGender" value="Masculino">
+                <label for="userGender">Masculino</label>
+                <input type="radio" name="userGender" value="notInformed">
+                <label for="userGender">Prefiro não informar</label>
+                <br>
+
+                <label for="maritalStatus">Estado Civil:</label>
+                <select name="maritalStatus">
+                    <option value="notInformed">Selecione...</option>
+                    <option value="casado">Casado</option>
+                    <option value="solteiro">Solteiro</option>
+                    <option value="divorciado">Divorciado</option>
+                    <option value="uniaoEstavel">União Estável</option>
+                    <option value="viuvo">Viúvo</option>
+                </select>
+                <br>
+
+                <label for="userState">Estado:</label>
+                <select name="userState">
+                    <option value="notInformed">Selecione...</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espirito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+                <br>
+
+                <label for="userCity">Cidade</label>
+                <input type="text" name="userCity">
+
+
+                
+            </fieldset>
             
 
 
