@@ -96,6 +96,7 @@
             
             <fieldset>
                 <legend>Hábitos</legend>
+
                 <p>Redes Sociais:</p>
                 <input id="instagram" type="checkbox" name="social" value="instagram">
                 <label for="instagram">Instagram</label>
@@ -109,7 +110,6 @@
                 <input id="X" type="checkbox" name="social" value="X">
                 <label for="X">X</label>
                 <br>
-
                 <label for="musicStyle">Estilo Musical</label>
                 <input list="styleTypes" id="musicStyle" name="userMusicStyle" type="text">
                 <datalist id="styleTypes">
@@ -119,9 +119,22 @@
                     <option value="Sertanejo">
                 </datalist>
                 <br>
-
                 <label for="favoriteColor">Cor Favorita</label>
                 <input type="color" name="userFavoriteColor" id="favoriteColor">
+            </fieldset>
+
+            <fieldset>
+                <legend>Opiniões</legend>
+
+                <label for="satisfaction">Satisfação</label>
+                <select name="userSatisfaction" id="satisfaction">
+                    <option value="notInformed">Selecione...</option>
+                    <option value="otima">Ótima</option>
+                    <option value="boa">Boa</option>
+                    <option value="regular">Regular</option>
+                    <option value="ruim">Ruim</option>
+                </select>
+
 
             </fieldset>
 
